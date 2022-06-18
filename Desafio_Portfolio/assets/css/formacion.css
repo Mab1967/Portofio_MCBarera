@@ -1,0 +1,73 @@
+/*------------------------------------FORMACION--------------*/
+.formacion {
+    width: 100%;
+    padding-top: 30px;
+    margin-top: 30px;
+}
+
+#formacion {
+    padding-top: 100px;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+
+.textoFormacion {
+    font-size: 15px;
+    text-align: center;
+}
+
+#formacionLogos li {
+    display: inline-block;
+    text-align: center;
+    width: 18%;
+    vertical-align: top;
+    padding: 120px 15px;
+    margin: 0 0.5%;
+    box-sizing: border-box;
+    border: 2px solid #ebc6c6;
+    box-shadow: 2px 2px #040337;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#formacionLogos li:hover{
+    border-color: #3f6eee;
+    transform:scaleY(1.1);
+}
+
+@media screen and (max-width:480px){
+
+    #formacion {
+        padding-top: 1rem;
+        margin-top: 10px;
+    }
+
+    #formacionLogos {
+        padding-left: 0;
+    }
+    
+    #formacionLogos li {
+        display: block;
+        flex-wrap:nowrap;
+        width: 100%;
+        padding: 10px 10px;
+        border-style: none;
+    }
+
+    #textoFormacion {
+        text-align: center;
+        padding-top: .5rem;
+        margin-top: .5rem;
+        margin-bottom: 10px;
+    }
+
+    .textoFormacion {
+        font-size: 10px;
+        line-height: 1;
+    }
+   
+}
+
+

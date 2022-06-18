@@ -1,0 +1,69 @@
+/*------------------------------------- LOGOS SKILLS-----*/
+.skills {
+    width: 100%;
+    padding-top: 30px;
+    margin-top: 30px;
+}
+
+#skills {
+    text-align: center;
+    padding-top: 100px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.logoSkills li {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    width: 18%;
+    vertical-align:middle;
+    padding: 120px 15px;
+    margin: 0 0.5%;
+    box-sizing: border-box;
+    border: 2px solid #ebc6c6;
+    box-shadow: 2px 2px #040337;
+    border-radius: 10px;
+    /*font-size: 25px;*/
+}
+
+.skillsImagen {
+    width: 60%;
+    height: 40%;
+}
+
+.logoSkills li:hover {
+    border-color: #3f6eee;
+    transform:rotateY(30deg);
+}
+
+@media screen and (max-width:480px){
+
+    .logoSkills {
+        text-align: center;
+        padding: 0 10% 0 20%;
+
+    }
+
+    .logoSkills li {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 40%;
+        padding: 10px 10px;
+        border-style: none;
+      
+    }
+
+    #skills {
+        text-align: center;
+        padding-top: 3rem;
+        margin-top: 1rem;
+        margin-bottom: 50px;
+    }
+
+    .skillsImagen {
+
+    }
+   
+}

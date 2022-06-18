@@ -1,0 +1,20 @@
+/*---------------------------logo*/
+h1 .logo {      
+    width:150px ;
+    padding-left: 100px;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+
+@media screen and (max-width:480px){
+    h1 .logo{
+        flex-wrap: nowrap;
+        padding: 0 33.33%;
+        width: 33.33%;
+    }
+}

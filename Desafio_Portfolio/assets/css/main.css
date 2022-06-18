@@ -1,0 +1,16 @@
+.main {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 4rem;
+    margin-top: 0;
+    font-size: 22px;
+    font-style: bold;
+    color: #e3e3e3;
+    text-shadow: 2px 2px #040337;
+}
+
+@media screen and (max-width:480px){
+   .main {
+       padding: 2rem 0.5rem;
+   }
+}

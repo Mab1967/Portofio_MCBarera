@@ -1,0 +1,32 @@
+/*-----------------------------REDES---*/
+#listaRedes li{       
+    font-size: 0.7em;
+    text-decoration: none;
+    float: left;
+    padding-left: 45px;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: inline-flex;
+}
+
+.imagenRedes {
+    width: 30px;
+    height: 30px;
+}
+
+@media screen and (max-width:480px){
+    #listaRedes li {
+        display: block;
+        position: static;
+        float: inline-start;
+        padding-right: 45px;
+    
+    }
+
+    .imagenRedes {
+        width: 1.5rem;
+        height: 1.5rem;
+    
+    
+    }
+}

@@ -1,0 +1,26 @@
+/*--------------------------------FORMULARIO DE CONTACTO-----*/
+
+.contacto {
+    display: flex;
+    margin: 8% 8% 1% 1% ;
+    padding: 8% 4% ;
+}
+
+
+.info_contacto {            /*---mail/celular---*/
+    margin-left: 15%;
+    color: #e3e3e3;
+    align-content: center;
+}
+
+#textoContacto {
+    font-size: 14px;
+    text-align: center;
+    color: #e3e3e3;
+}
+
+.imgContacto {
+    margin: 15% 0 0 25%;
+    background-color: #040337;
+    border-radius: 10%;
+}

@@ -1,0 +1,41 @@
+/*------------------------------------------------formulario*/
+.form {       
+    color:#e3e3e3;
+}
+
+form label, form legend {
+    font-size: 15px;
+    margin: 0 0 0 35px;
+}
+
+.input-padron {
+    display: flex;
+    font-size: 1.2rem;
+    margin: 0.8rem 2rem;
+    padding: 0.8rem 2.1rem;
+    width: 90%;
+    background: linear-gradient( to right, #040337 60%, #dbc3c3);
+    color: #e3e3e3;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.enviar {        /*------------botón enviar----*/
+    width: 60%;
+    padding: 5px;
+    margin-left: 13em;
+    font-size: 15px;
+    color: #e3e3e3;
+    font-weight: bold;
+    background: linear-gradient( to right, #040337 60%, #dbc3c3);
+    border: none;
+    border-radius: 4px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {     /*-------transformar enviar----*/
+    background: #3f6eee;
+    transform: scale(1.2);
+}

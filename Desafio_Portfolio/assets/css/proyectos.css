@@ -1,0 +1,54 @@
+/*------------------------------------------PROYECTOS---------*/
+.proyectos {
+    display: inline-block;
+    width: 100%;
+    padding-top: 150px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.proyectos img {
+    box-sizing: border-box;
+    border: 3px solid #ebc6c6;
+    border-radius: 10px;
+}
+
+.proyectos img:hover{
+    border-color: #3f6eee;
+    transform:matrix3d(30);
+}
+
+.proyectos h2 {
+    text-align: center;
+}
+
+.tituloProyecto {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.botones {
+    margin-bottom: 25px;
+}
+
+
+@media screen and (max-width:480px){
+
+.tituloProyecto {
+    font-size: 1rem;
+}
+
+.botones {
+    font-size: .8rem;
+}
+
+.proyectos, h2 {
+    font-size: 2rem;
+}
+
+.proyectos, h3 {
+    font-size: 1.6rem;
+}
+
+
+}

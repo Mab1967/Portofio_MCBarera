@@ -1,0 +1,15 @@
+.fotoPerfil {
+    width: 15%;
+    margin: 0 0 0 30px;
+    padding: 20px;
+    border-radius: 60%;
+    opacity: 0.7;
+    float: right;   /*texto se acomoda con la foto*/
+    position: static;
+}
+
+@media screen and (max-width:480px){
+    .fotoPerfil {
+        display: none;
+    }
+}
